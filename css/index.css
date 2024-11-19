@@ -1,0 +1,604 @@
+/* -------------------------------------------------------------------------- */
+/*                                    sec1                                    */
+/* -------------------------------------------------------------------------- */
+
+.parent-sec1 .container {
+  display: flex;
+  flex-direction: row;
+}
+ .parent-sec1 .container .left-flex {
+  display: flex;
+
+  flex-direction: column;
+animation: slidein 2s ease-in-out forwards;
+
+  margin: 5rem 1rem;
+}
+
+.top-left-border {
+  border-bottom: 3px solid black;
+  padding: 0px 2.5rem;
+  
+}
+.top-left-flex {
+  animation: slidein 3s ease-in-out forwards;
+  display: flex;
+  padding-bottom: 1rem;
+  color: var(--neutral--800);
+  flex-direction: row;
+line-height: 2rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.right-flex img {
+  width: 100%;
+  height: 100%;
+  animation: slidein 3s ease-out forwards ;
+}
+.info-left-flex{
+  width: 600px;
+  
+}
+.container .left-flex h2 {
+  font-size: 70px;
+  color: var(--neutral--800);
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+}
+
+.container .left-flex span {
+  font-size: 70px;
+  color: var(--neutral--800);
+}
+
+.left-down-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 5rem 0rem;
+}
+.p-left-down-flex p {
+  width: 100%;
+  height: 100%;
+}
+
+.p-left-down-flex {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.button-left-down-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  animation: slidein 4s ease-in-out forwards;
+  margin: 3rem 1rem;
+}
+.button-left-down-flex a {
+  display: inline-block;
+  padding: 0rem 1rem;
+  transition: all 0.5s ease-in;
+  background-color: #121229;
+  color: white;
+  padding: 1rem 2rem;
+  border: 5px solid #121229;
+  border-radius: 50px;
+}
+
+.button-left-down-flex a:nth-child(2) {
+  background-color: white;
+  color: #121229;
+  border: 1px solid #121229;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  end sec1                                  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                    sec2                                    */
+/* -------------------------------------------------------------------------- */
+ .parent-sec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: slidein 2s ease-in-out forwards;
+  margin: 5;
+}
+
+.top-flex .top-info {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  animation: slidein 4s ease-in-out forwards;
+  align-items: center;
+}
+.top-info .top-border {
+  border-bottom: 3px solid black;
+  padding: 0px 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.top-flex .info {
+  font-size: 3rem;
+  line-height: 60px;
+  color: #121229;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.top-flex .info span {
+  font-size: 3rem;
+  color: #121229;
+}
+
+/* card */
+.container .card-flex {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  animation: slidein 2s ease-in-out forwards;
+  justify-content: space-between;
+}
+.card-flex .first {
+  margin: 3rem 0rem;
+  display: flex;
+  background-color: #f3d2ad;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  animation: slidein 2s ease-in-out forwards;
+  gap: 2rem;
+  
+  padding-left: 40px;
+    padding-right: 40px;
+  border: 1px solid #ffd19b;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card-flex .first .img-info {
+  width: 300px;
+}
+.card-flex .first .img-info img {
+  width: 50%;
+  height: 100%;
+}
+.card-flex .first .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+.card-flex .first a {
+  color: #121229;
+}
+
+.card-flex .second {
+  margin: 3rem 0rem;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  gap: 2rem;
+  animation: slidein 3.5s ease-in-out forwards;
+  padding-left: 40px;
+    padding-right: 40px;
+  justify-content: center;
+  align-items: start;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card-flex .second .img-info {
+  width: 300px;
+}
+.card-flex .second .img-info img {
+  width: 50%;
+  height: 100%;
+}
+.card-flex .second .info {
+  display: flex;
+  flex-direction: column; justify-content: start;
+  align-items: start;
+  gap: 1rem;
+}
+.card-flex .second a {
+  color: #121229;
+}
+
+.card-flex .third {
+  margin: 3rem 0rem;
+  display: flex;
+  background-color: #f3d2ad;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 40px;
+    padding-right: 40px;
+    animation: slidein 4.5s ease-in-out forwards;
+  justify-content: center;
+  align-items: start;
+  border: 1px solid #f3d2ad;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card-flex .third .img-info {
+  width: 300px;
+}
+.card-flex .third .img-info img {
+  width: 50%;
+  height: 100%;
+}
+.card-flex .third .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+}
+.card-flex .third a {
+  color: #121229;
+}
+
+.button .button-left-down-flex{
+    justify-content: center;
+    animation: slidein 2s ease-in-out forwards;
+} 
+/* -------------------------------------------------------------------------- */
+/*                                  end sec2                                  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                    sec3                                    */
+/* -------------------------------------------------------------------------- */
+
+.parent-sec3 .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #121229;
+    animation: slidein 2s ease-in-out forwards;
+}
+.top-about{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.top-flex h2 ,span{
+    color: #121229;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.about-us-img{
+  width: 100%;
+  height: 100%;
+  animation: slidein 2s ease-in-out forwards;
+}
+.about-us-img img{
+  width: 100%;
+  height: 100%;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  end sec3                                  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                    sec4                                    */
+/* -------------------------------------------------------------------------- */
+
+.parent-sec4 .container{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.about-us-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #121229;
+  animation: slidein 2s ease-in-out forwards;
+}
+.top-about{
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+.top-flex h2 ,span{
+  color: #121229;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.about-us-img{
+width: 100%;
+height: 100%;
+}
+.about-us-img img{
+width: 100%;
+height: 100%;
+}
+.info{
+  display:flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  animation: slidein 4s ease-in-out forwards;
+  
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  end sec4                                  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                    SEC5                                    */
+/* -------------------------------------------------------------------------- */
+
+.parent-sec5 .left-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: slidein 2s ease-in-out forwards;
+  margin: 20rem;
+}
+.info-top-left-flex{
+  font-size: 16px;
+  font-weight: bold;
+}
+.parent-sec5 .container {
+  display: flex;
+  flex-direction: row-reverse;
+  
+  background-color: rgb(243, 192, 243);
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.parent-sec5 .info-left-flex h2{
+line-height: 3.5rem;
+font-size: 50px;
+}
+.parent-sec5 .left-flex{
+ margin: 1rem 3rem;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   endsec5                                  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                    sec6                                    */
+/* -------------------------------------------------------------------------- */
+
+.parent-sec6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+ 
+}
+
+.parent-sec6 .top-about{
+  font-size: 18px;
+  font-weight: bold;
+}
+.parent-sec6 .top-flex{
+  padding: 30px;
+}
+.parent-sec6 .info .left-info{
+  display: flex;
+  flex-direction: column;
+ width: 20% ;
+ animation: slidein 2s ease-in-out forwards;
+ justify-content: center;
+ align-items: center;
+}
+
+.parent-sec6 .info {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  background-color:#d6c1eb ;
+  padding: 70px 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.parent-sec6 .info .left-info img{
+  width: 80%;
+  height: 100%;
+  border: 5px #121229 solid ;
+  border-radius: 50%;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  end sec6                                  */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                    sec7                                    */
+/* -------------------------------------------------------------------------- */
+.parent-sec7 .card-blog{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  
+}
+.parent-sec7 .card-blog  .first{
+  display: flex;
+  flex-direction: column;
+  
+  width: 50%;
+  animation: slidein 2s ease-in-out forwards;
+ 
+   
+}
+.parent-sec7 .card-blog  .first .img{
+    width: 95%;
+   border: 1px solid white;
+height: 60%;
+   border-radius: 50px;
+   overflow: hidden;
+}
+.parent-sec7 .card-blog  .first .img img{
+width: 100%;
+height: 100%;
+}
+.parent-sec7 .infoo span{
+ 
+  font-size: 15px;
+  transition: all 0.5s ease-in;
+  background-color: #121229;
+  color: white;
+  padding: 5px 10px;
+  border: 5px solid #121229;
+  border-radius: 10px;
+}
+.parent-sec7 .infoo h5{
+ padding: 3px;
+  display: inline-block;
+}
+
+
+.parent-sec7 .info h3{
+ color: #121229;
+  text-align: left;
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  end sec7                                  */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                    sec8                                    */
+/* -------------------------------------------------------------------------- */
+
+.parent-sec8 .flex-position h3{
+  font-size: 50px;
+  color: black;
+}
+
+.parent-sec8 .flex-position span{
+ 
+  color: black;
+}
+.parent-sec8 .flex-position a{
+  display: inline-block;
+  padding: 0rem 2rem;
+  transition: all 0.5s ease-in;
+  background-color: #121229;
+  color: white;
+  padding: 1rem 2rem;
+  border: 5px solid #121229;
+  border-radius: 50px;
+ 
+}
+.parent-sec8{
+  position: relative;
+  top: 20px;
+  height: 20vh;
+}
+
+.parent-sec8 .container{
+  animation: slidein 2s ease-in-out forwards;
+  background-color: #ddf1bd;
+  padding: 100px 40px;
+  
+  border: 1px solid #ddf1bd;
+  border-radius:50px ;
+
+}
+.parent-sec8 .flex-position{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ margin: 0rem 2rem;
+ 
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  end sec8                                  */
+/* -------------------------------------------------------------------------- */
+
+@media(max-width:1200px){
+  
+.parent-sec1 .container {
+  flex-wrap: wrap;
+  
+}
+.parent-sec1 .container .info-left-flex{
+  width: 100%;
+  line-height: rem;
+  
+}
+.parent-sec1 .container .info-left-flex h2{
+  
+  line-height: 5rem;
+  
+}
+
+.parent-sec2 .card-flex{
+  flex-wrap: wrap;
+  height: 100%;
+}
+.parent-sec4 .about-us-info{
+  flex-wrap: wrap;}
+.parent-sec4  .info{
+  flex-wrap: wrap;}
+.parent-sec4  .info .info-img img{
+  width: 100%;}
+
+  .parent-sec5 .container{
+    flex-wrap: wrap;
+  }
+ 
+  .parent-sec5 .container .left-flex  .info-left-flex{
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+
+
+  .parent-sec7 .container .card-blog{
+    flex-wrap: wrap;
+    height: 950px;
+  }
+  .parent-sec7 .container{
+ 
+  }
+
+
+}
+
+@keyframes slidein {
+  from{
+    transform: translate(-100%);
+    opacity: 0;
+  }
+  to{
+    transform: translate(0);
+    opacity: 1;
+  }  
+}

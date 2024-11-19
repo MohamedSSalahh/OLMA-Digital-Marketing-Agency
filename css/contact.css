@@ -1,0 +1,19 @@
+.parent-sec1 .container .info-left-flex      h2{
+    line-height: 5rem;
+    font-weight: bold;
+    animation: slidein 3s ease-in-out forwards;
+}
+
+
+
+
+@keyframes slidein {
+    from{
+      transform: translate(-100%);
+      opacity: 0;
+    }
+    to{
+      transform: translate(0);
+      opacity: 1;
+    }  
+  }
